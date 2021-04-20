@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/css/grid.css">
+    <link rel="stylesheet" href="../public/css/partial.css">
+    <link rel="stylesheet" href="../public/css/cart.css">
+    <link rel="stylesheet" href="../public/css/media.css">
+</head>
+
+<body class="overY-hidden">
+    <div class="scrollTop"><i class="fas fa-arrow-circle-up"></i></div>
+    <div class="pre-loading">
+        <h3 class="loader">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </h3>
+    </div>
+    <header>
+        <nav>
+            <!--social-links-and-phone-number----------------->
+            <div class="social-call">
+                <!--social-links--->
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <!--phone-number------>
+                <div class="phone">
+                    <span>Call: +0868458695</span>
+                </div>
+            </div>
+            <!--menu-bar----------------------------------------->
+            <div class="navigation">
+                <div class="container display-j-a">
+                    <!--logo------------>
+                    <a href="../views/shop.html" class="logo"><img src="../public/img/logo.png"></a>
+                    <!--menu-icon------------->
+                    <div class="toggle"></div>
+                    <!--menu----------------->
+                    <ul class="menu">
+                        <li><a href="../views/shop.html">Home</a></li>
+                        <li class="shop"><a href="#">Shop</a></li>
+                        <li><a href="#">Men</a>
+                            <span class="sale-lable">Sale</span>
+                        </li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                    <!--right-menu----------->
+                    <div class="right-menu">
+                        <a href="javascript:void(0);" class="search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="user">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="shopping-cart">
+                            <i class="fas fa-shopping-cart">
+                                <span class="num-cart-product">0</span>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+        <!-- mini cart -->
+        <div class="cart">
+            <div class="mini_cart">
+                <div class="cart_close">
+                    <div class="cart_text">
+                        <h3>Your Cart</h3>
+                    </div>
+                    <div class="mini_cart_close">
+                        <a href="javascript:void(0)"><i class="fas fa-window-close"></i></a>
+                    </div>
+                </div>
+                <div class="cart_inner">
+                    <!-- INSERT CART CONTENT -->
+                </div>
+                <div class="cart_total">
+                    <!-- INSERT CART TOTAL -->
+                </div>
+                <div class="mini_cart_footer">
+                    <div class="cart_button view_cart">
+                        <a href="#">View Cart</a>
+                    </div>
+                    <div class="cart_button checkout">
+                        <a href="#" class="active">Checkout</a>
+                    </div>
+                </div>
+                <!-- mini cart ends  -->
+            </div>
+        </div>
+        <!--search-bar----------------------------------->
+        <div class="search-bar">
+
+            <!--search-input------->
+            <div class="search-input">
+                <input type="text" placeholder="Search For Product" name="search" />
+                <!--cancel-btn--->
+                <a href="javascript:void(0);" class="search-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+
+            </div>
+        </div>
+        <!---login-and-sign-up--------------------------------->
+        <div class="form">
+            <!--login---------->
+            <div class="login-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Log In</strong>
+                <!--inputs-->
+                <form>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Log In" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="#" class="forget">Forget Your Password?</a>
+                    <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+                </div>
+            </div>
+            <!--Sign-up---------->
+            <div class="sign-up-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Sign Up</strong>
+                <!--inputs-->
+                <form>
+                    <input type="text" name="fullname" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Sign Up" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">
+                        Already Have Account?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumb-img">
+                            <img src="../public/img/breadcrumb-img.jpg" alt="">
+                        </div>
+                        <div class="breadcrumb-content">
+                            <ul>
+                                <li><a href="../views/shop.html">Home</a></li>
+                                <li class="active">Shopping Cart</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shopping-cart-area">
+            <div class="container overX-auto">
+                <div class="row">
+                    <div class="col-md-12">
+                        <form>
+                            <div class="table-content">
+                                <table>
+                                    <thead>
+                                        <tr>
+                                            <th class="product-remove">remove</th>
+                                            <th class="product-name">Product</th>
+                                            <th class="product-thumbnail">images</th>
+                                            <th class="product-price">Unit Price</th>
+                                            <th class="product-quantity">Quantity</th>
+                                            <th class="product-subtotal">Total</th>
+                                        </tr>
+                                    </thead>
+
+                                    <tbody>
+                                        <!-- 
+                                            INSERT DATA SHOPPING CART 
+                                        -->
+                                    </tbody>
+                                </table>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shopping-cart-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="coupon-delete">
+                            <div class="coupon">
+                                <input id="coupon_code" class="input-text" name="coupon_code" value="" placeholder="Coupon code" type="text">
+                                <input class="button" name="apply_coupon" value="Apply coupon" type="submit">
+                            </div>
+                            <div class="delete">
+                                <input class="button" name="update_cart" value="Delete All" type="submit">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="cart-page-total">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>My Account</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="#">Team Member</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Specials</a></li>
+                                    <li><a href="shop.html">Best sellers</a></li>
+                                    <li><a href="#">Our stores</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Widget Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Sport</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Basketball</a></li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                    <li><a href="#">Football</a></li>
+                                    <li><a href="#">Baseball</a></li>
+                                    <li><a href="#">Running</a></li>
+                                    <li><a href="#">Gym</a></li>
+                                    <li><a href="#">Walking</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Brand</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Vans</a></li>
+                                    <li><a href="#">Nike</a></li>
+                                    <li><a href="#">Adidas</a></li>
+                                    <li><a href="#">Mizuno</a></li>
+                                    <li><a href="#">Biti's</a></li>
+                                    <li><a href="#">Puma</a></li>
+                                    <li><a href="#">New Balance</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Information</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="#">My orders</a></li>
+                                    <li><a href="#">Terms &amp; Conditions</a></li>
+                                    <li><a href="#">Returns &amp; Exchanges</a></li>
+                                    <li><a href="#">Shipping &amp; Delivery</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer Widget End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img
+                                            src="../public/img/logo.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Foote Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <p>Address : No.6C, 8 Street, Thu Duc District, HCM.City</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-open-o"></i>
+                                    </div>
+                                    <p>Gmail: <br>phuocloc17598@gmail.com</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-mobile"></i>
+                                    </div>
+                                    <p>Phone: <br>(+68) 123 456 7890</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../public/js/font-awesome.js"></script>
+    <script src="../public/js/jquery-3.6.0.js"></script>
+    <script src="../public/js/partial.js"></script>
+    <script src="../public/js/cart.js"></script>
+</body>
+
+</html>

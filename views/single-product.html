@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingDum E-Commerce</title>
+    <link rel="stylesheet" href="../public/css/grid.css">
+    <link rel="stylesheet" href="../public/css/partial.css">
+    <link rel="stylesheet" href="../public/css/single-product.css">
+    <link rel="stylesheet" href="../public/css/media.css">
+</head>
+
+<body class="overY-hidden">
+    <div class="scrollTop"><i class="fas fa-arrow-circle-up"></i></div>
+    <div class="pre-loading">
+        <h3 class="loader">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </h3>
+    </div>
+    <header>
+        <nav>
+            <!--social-links-and-phone-number----------------->
+            <div class="social-call">
+                <!--social-links--->
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <!--phone-number------>
+                <div class="phone">
+                    <span>Call: +0868458695</span>
+                </div>
+            </div>
+            <!--menu-bar----------------------------------------->
+            <div class="navigation">
+                <div class="container display-j-a">
+                    <!--logo------------>
+                    <a href="/views/shop.html" class="logo"><img src="../public/img/logo.png"></a>
+                    <!--menu-icon------------->
+                    <div class="toggle"></div>
+                    <!--menu----------------->
+                    <ul class="menu">
+                        <li><a href="/views/shop.html">Home</a></li>
+                        <li class="shop"><a href="/views/shop.html">Shop</a></li>
+                        <li><a href="#">Men</a>
+                            <span class="sale-lable">Sale</span>
+                        </li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">Kids</a></li>
+                    </ul>
+                    <!--right-menu----------->
+                    <div class="right-menu">
+                        <a href="javascript:void(0);" class="search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="user">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="shopping-cart">
+                            <i class="fas fa-shopping-cart">
+                                <span class="num-cart-product">0</span>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+        <!-- mini cart -->
+        <div class="cart">
+            <div class="mini_cart">
+                <div class="cart_close">
+                    <div class="cart_text">
+                        <h3>Your Cart</h3>
+                    </div>
+                    <div class="mini_cart_close">
+                        <a href="javascript:void(0)"><i class="fas fa-window-close"></i></a>
+                    </div>
+                </div>
+                <div class="cart_inner">
+                    <!-- INSERT CART CONTENT -->
+                </div>
+                <div class="cart_total">
+                    <!-- INSERT CART TOTAL -->
+                </div>
+                <div class="mini_cart_footer">
+                    <div class="cart_button view_cart">
+                        <a href="#">View Cart</a>
+                    </div>
+                    <div class="cart_button checkout">
+                        <a href="#" class="active">Checkout</a>
+                    </div>
+                </div>
+                <!-- mini cart ends  -->
+            </div>
+        </div>
+        <!--search-bar----------------------------------->
+        <div class="search-bar">
+
+            <!--search-input------->
+            <div class="search-input">
+                <input type="text" placeholder="Search For Product" name="search" />
+                <!--cancel-btn--->
+                <a href="javascript:void(0);" class="search-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+
+            </div>
+        </div>
+        <!---login-and-sign-up--------------------------------->
+        <div class="form">
+            <!--login---------->
+            <div class="login-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Log In</strong>
+                <!--inputs-->
+                <form>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Log In" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="#" class="forget">Forget Your Password?</a>
+                    <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+                </div>
+            </div>
+            <!--Sign-up---------->
+            <div class="sign-up-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Sign Up</strong>
+                <!--inputs-->
+                <form>
+                    <input type="text" name="fullname" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Sign Up" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">
+                        Already Have Account?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="breadcrumb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="breadcrumb-img">
+                            <img src="../public/img/breadcrumb-img.jpg" alt="">
+                        </div>
+                        <div class="breadcrumb-content">
+                            <ul>
+                                <li><a href="index.html">Home</a></li>
+                                <li class="active">Single Product</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="product-details-area">
+            <div class="container render-single-product">
+                
+
+
+            </div>
+        </div>
+
+        <div class="product-description-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="product-switch-tab">
+                            <ul>
+                                <li>
+                                    <a data-toggle="desc" class="active" href="javascript:void(0);">Description</a>
+                                </li>
+                                <li>
+                                    <a data-toggle="review" href="javascript:void(0);">Reviews (1)</a>
+                                </li>
+                            </ul>
+
+                            <div class="content-switch-tab">
+                                <div class="tab-description active">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec
+                                        est
+                                        tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus
+                                        quis
+                                        justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit
+                                        id
+                                        nulla.</p>
+                                    <p>Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis
+                                        fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa
+                                        massa.
+                                        Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed
+                                        commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing
+                                        elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in
+                                        accumsan
+                                        elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc.
+                                        Etiam
+                                        gravida vehicula tellus, in imperdiet ligula euismod eget.</p>
+                                </div>
+
+                                <div class="tab-reviews">
+                                    <div class="container">
+                                        <h2>1 review for Sit voluptatem</h2>
+                                    <ul>
+                                        <li>
+                                            <img src="../public/img/author.png" alt="">
+                                            <div class="product-comment-content">
+                                                <div class="product-reviews">
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star"></i>
+                                                    <i class="fa fa-star-o"></i>
+                                                </div>
+                                                <div class="info-reviews">
+                                                    <strong>admin</strong> - <span>April 18, 2021</span>
+                                                </div>
+                                                <div class="description-reviews">
+                                                    <p>Good Product</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    </div>
+
+                                    <div class="review-form-wrapper">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <div class="review-form">
+                                                        <span class="comment-reply-title">Add a review </span>
+                                                        <form action="#">
+                                                            <p class="comment-notes">
+                                                                <span id="email-notes">Your email address will not be
+                                                                    published.</span>
+                                                                Required fields are marked
+                                                                <span class="required">*</span>
+                                                            </p>
+                                                            <div class="comment-form-rating">
+                                                                <label>Your rating</label>
+                                                                <div class="rating">
+                                                                    <i class="fa fa-star-o"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                    <i class="fa fa-star-o"></i>
+                                                                </div>
+                                                            </div>
+                                                            <div class="input-element">
+                                                                <div class="comment-form-comment">
+                                                                    <label>Comment</label>
+                                                                    <textarea name="message" cols="40" rows="8"></textarea>
+                                                                </div>
+                                                                <div class="review-comment-form-author">
+                                                                    <label>Name </label>
+                                                                    <input required="required" type="text">
+                                                                </div>
+                                                                <div class="review-comment-form-email">
+                                                                    <label>Email </label>
+                                                                    <input required="required" type="email">
+                                                                </div>
+                                                                <div class="comment-submit">
+                                                                    <button type="submit">Submit</button>
+                                                                </div>
+                                                            </div>
+                                                        </form>
+                                                    </div>
+                                                </div>
+    
+                                                <div class="col-md-6">
+                                                    <div class="img-comment">
+                                                        <img src="../public/img/bg2.svg">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>My Account</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="#">Team Member</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Specials</a></li>
+                                    <li><a href="shop.html">Best sellers</a></li>
+                                    <li><a href="#">Our stores</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Information</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="#">My orders</a></li>
+                                    <li><a href="#">Terms &amp; Conditions</a></li>
+                                    <li><a href="#">Returns &amp; Exchanges</a></li>
+                                    <li><a href="#">Shipping &amp; Delivery</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Sport</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Basketball</a></li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                    <li><a href="#">Football</a></li>
+                                    <li><a href="#">Baseball</a></li>
+                                    <li><a href="#">Running</a></li>
+                                    <li><a href="#">Gym</a></li>
+                                    <li><a href="#">Walking</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Brand</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Vans</a></li>
+                                    <li><a href="#">Nike</a></li>
+                                    <li><a href="#">Adidas</a></li>
+                                    <li><a href="#">Mizuno</a></li>
+                                    <li><a href="#">Biti's</a></li>
+                                    <li><a href="#">Puma</a></li>
+                                    <li><a href="#">New Balance</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img src="../public/img/logo.png" alt=""></a>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <p>Address : No.6C, 8 Street, Thu Duc District, HCM.City</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-open-o"></i>
+                                    </div>
+                                    <p>Gmail: <br>phuocloc17598@gmail.com</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-mobile"></i>
+                                    </div>
+                                    <p>Phone: <br>(+68) 123 456 7890</p>
+                                </div>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="../public/js/font-awesome.js"></script>
+    <script src="../public/js/jquery-3.6.0.js"></script>
+    <script src="../public/js/partial.js"></script>
+    <script src="../public/js/single-product.js"></script>
+</body>
+
+</html>

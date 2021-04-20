@@ -1,0 +1,352 @@
+{
+    "products" : [
+        {
+          "id": "fbfc1fda-45c9-4b41-ac44-9d2317ea8236",
+          "product_name": "Nike Air Grass",
+          "product_brand": "nike",
+          "product_sport":"lifestyle",
+          "product_imgs":{
+            "img_first": "../public/img/products/nike_air_grass/N_airGrass_Brown.png",
+            "img_second": "../public/img/products/nike_air_grass/N_airGrass_Blue.png",
+            "img_third": "../public/img/products/nike_air_grass/N_airGrass_Yellow.png",
+            "img_fourth": "../public/img/products/nike_air_grass/N_airGrass_Red.png"
+          },
+          "product_colors":{
+            "color_first": "#1d4435",
+            "color_second": "#123e54",
+            "color_third": "#42380b",
+            "color_fourth": "#471127"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Nike Air Grass'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "7df50ebd-0a53-4eed-917d-8b01cf5a11d6",
+          "product_name": "Nike Kyrie",
+          "product_brand": "nike",
+          "product_sport":"walking",
+          "product_imgs":{
+            "img_first": "../public/img/products/nike_kyrie/N_kyrie_darkGreen.png",
+            "img_second": "../public/img/products/nike_kyrie/N_kyrie_Orange.png",
+            "img_third": "../public/img/products/nike_kyrie/N_kyrie_darkBlue.png",
+            "img_fourth": "../public/img/products/nike_kyrie/N_kyrie_darkRed.png"
+          },
+          "product_colors":{
+            "color_first": "#38926e",
+            "color_second": "#db6319",
+            "color_third": "#313fa4",
+            "color_fourth": "#6c2b25"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Nike Kyrie'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "a68e7883-21fc-4936-8597-d18dcf920427",
+          "product_name": "Adidas Ozweego",
+          "product_brand": "adidas",
+          "product_sport":"baseball",
+          "product_imgs":{
+            "img_first": "../public/img/products/adidas_ozweego/A_ozweego_Red.png",
+            "img_second": "../public/img/products/adidas_ozweego/A_ozweego_Pink.png",
+            "img_third": "../public/img/products/adidas_ozweego/A_ozweego_Blue.png",
+            "img_fourth": "../public/img/products/adidas_ozweego/A_ozweego_White.png"
+          },
+          "product_colors":{
+            "color_first": "#ffb3b3",
+            "color_second": "#ffb3e6",
+            "color_third": "#dbe2ff",
+            "color_fourth": "#dedfe4"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Adidas Ozweego'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "03e94879-4a2b-4100-9356-2a8c942a90ca",
+          "product_name": "Puma RS - Curve",
+          "product_brand": "puma",
+          "product_sport": "baseball",
+          "product_imgs":{
+            "img_first": "../public/img/products/puma_curve/P_curve_Blue.png",
+            "img_second": "../public/img/products/puma_curve/P_curve_Gray.png",
+            "img_third": "../public/img/products/puma_curve/P_curve_Green.png",
+            "img_fourth": "../public/img/products/puma_curve/P_curve_Pink.png"
+          },
+          "product_colors":{
+            "color_first": "#8694b2",
+            "color_second": "#7b7973",
+            "color_third": "#a3b6a5",
+            "color_fourth": "#a26798"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Adidas Ozweego'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "d9c06103-cb06-426b-ad71-17d28760de54",
+          "product_name": "Nike Lebron",
+          "product_brand": "nike",
+          "product_sport":"running",
+          "product_imgs":{
+            "img_first": "../public/img/products/nike_lebron/N_lebron_Lightgreen.png",
+            "img_second": "../public/img/products/nike_lebron/N_lebron_Orange.png",
+            "img_third": "../public/img/products/nike_lebron/N_lebron_Pink.png",
+            "img_fourth": "../public/img/products/nike_lebron/N_lebron_Yellow.png"
+          },
+          "product_colors":{
+            "color_first": "#b9b57c",
+            "color_second": "#fe6c35",
+            "color_third": "#bc7998",
+            "color_fourth": "#e0db42"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 120
+          },
+          "product_description": "Take your training runs to the next level, with the 'Nike Lebron'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "beb7fb2d-5539-43e7-a332-17e0f08b017a",
+          "product_name": "Adidas Alpha Bounce",
+          "product_brand": "adidas",
+          "product_sport": "gym",
+          "product_imgs":{
+            "img_first": "../public/img/products/adidas_alpha_bounce/A_alphaBounce_Black.png",
+            "img_second": "../public/img/products/adidas_alpha_bounce/A_alphaBounce_Green.png",
+            "img_third": "../public/img/products/adidas_alpha_bounce/A_alphaBounce_Blue.png",
+            "img_fourth": "../public/img/products/adidas_alpha_bounce/A_alphaBounce_Purple.png"
+          },
+          "product_colors":{
+            "color_first": "#313237",
+            "color_second": "#273d30",
+            "color_third": "#181a31",
+            "color_fourth": "#271c2d"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Adidas Alpha Bounce'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "8dde624a-78ab-4e17-88c9-f582ede85e9c",
+          "product_name": "New Balance Evolution",
+          "product_brand": "newbalance",
+          "product_sport":"football",
+          "product_imgs":{
+            "img_first": "../public/img/products/newbalance_evolution/NB_Evolution_Red.png",
+            "img_second": "../public/img/products/newbalance_evolution/NB_Evolution_Green.png",
+            "img_third": "../public/img/products/newbalance_evolution/NB_Evolution_lightYellow.png",
+            "img_fourth": "../public/img/products/newbalance_evolution/NB_Evolution_lightGreen.png"
+          },
+          "product_colors":{
+            "color_first": "#9e2e31",
+            "color_second": "#36ab45",
+            "color_third": "#bab230",
+            "color_fourth": "#15c4ad"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Nike Evolution'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "e0ffa227-a87b-46aa-84a5-9103db115bef",
+          "product_name": "Puma Velocity",
+          "product_brand": "puma",
+          "product_sport": "walking",
+          "product_imgs":{
+            "img_first": "../public/img/products/puma_velocity/P_velocity_Pupple.png",
+            "img_second": "../public/img/products/puma_velocity/P_velocity_Yellow.png",
+            "img_third": "../public/img/products/puma_velocity/P_velocity_Orange.png",
+            "img_fourth": "../public/img/products/puma_velocity/P_velocity_Gray.png"
+          },
+          "product_colors":{
+            "color_first": "#743b90",
+            "color_second": "#d1a410",
+            "color_third": "#e2502c",
+            "color_fourth": "#868686"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Puma Velocity'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "b2fa59e0-65a6-43fc-ab95-4cecb25f0808",
+          "product_name": "Bitis Hunter Evolution",
+          "product_brand": "bitis",
+          "product_sport": "gym",
+          "product_imgs":{
+            "img_first": "../public/img/products/bitis_hunter_evolution/B_hunterEvolution_Orange.png",
+            "img_second": "../public/img/products/bitis_hunter_evolution/B_hunterEvolution_Pink.png",
+            "img_third": "../public/img/products/bitis_hunter_evolution/B_hunterEvolution_Purple.png",
+            "img_fourth": "../public/img/products/bitis_hunter_evolution/B_hunterEvolution_Green.png"
+          },
+          "product_colors":{
+            "color_first": "#f64b37",
+            "color_second": "#b26a6a",
+            "color_third": "#7a67a3",
+            "color_fourth": "#64ae63"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Biti's Hunter Evolution'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "70b8fb94-622c-4db3-a034-31b600f21deb",
+          "product_name": "Mizuno Wave Ride",
+          "product_brand": "mizuno",
+          "product_sport": "lifestyle",
+          "product_imgs":{
+            "img_first": "../public/img/products/mizuno_wave_ride/M_waveRide_Pupple.png",
+            "img_second": "../public/img/products/mizuno_wave_ride/M_waveRide_Grey.png",
+            "img_third": "../public/img/products/mizuno_wave_ride/M_waveRide_Green.png",
+            "img_fourth": "../public/img/products/mizuno_wave_ride/M_waveRide_Blue.png"
+          },
+          "product_colors":{
+            "color_first": "#7f5891",
+            "color_second": "#99a8ad",
+            "color_third": "#5cff17",
+            "color_fourth": "#614aff"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Vans Pig Suede'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "3c52e4bc-4e33-4888-80fd-aad89e134949",
+          "product_name": "Nike Skepta Air",
+          "product_brand": "nike",
+          "product_sport": "basketball",
+          "product_imgs":{
+            "img_first": "../public/img/products/nike_skepta_air/N_skeptaair_Green.png",
+            "img_second": "../public/img/products/nike_skepta_air/N_skeptaair_Blue.png",
+            "img_third": "../public/img/products/nike_skepta_air/N_skeptaair_Orange.png",
+            "img_fourth": "../public/img/products/nike_skepta_air/N_skeptaair_White.png"
+          },
+          "product_colors":{
+            "color_first": "#c3fd18",
+            "color_second": "#1fabfe",
+            "color_third": "#fc7011",
+            "color_fourth": "#b5b5b5"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Nike Skepta Air'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "4d7feb54-043e-48ba-8ab9-1dea0e2904f2",
+          "product_name": "Adidas Marvel",
+          "product_brand": "adidas",
+          "product_category": "running",
+          "product_imgs":{
+            "img_first": "../public/img/products/adidas_boot_marvel/A_bootMarval_Black.png",
+            "img_second": "../public/img/products/adidas_boot_marvel/A_bootMarval_Brown.png",
+            "img_third": "../public/img/products/adidas_boot_marvel/A_bootMarval_darkBlue.png",
+            "img_fourth": "../public/img/products/adidas_boot_marvel/A_bootMarval_Pupple.png"
+          },
+          "product_colors":{
+            "color_first": "#3b3b3b",
+            "color_second": "#411a17",
+            "color_third": "#171c3d",
+            "color_fourth": "#291437"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Adidas NMD Human'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+        {
+          "id": "4d15c98c-87d4-4000-806c-6bc4ce9bcfed",
+          "product_name": "New Balance Baam",
+          "product_brand": "newbalance",
+          "product_sport": "gym",
+          "product_imgs":{
+            "img_first": "../public/img/products/newbalance_baam/NB_baam_Yellow.png",
+            "img_second": "../public/img/products/newbalance_baam/NB_baam_Red.png",
+            "img_third": "../public/img/products/newbalance_baam/NB_baam_Pink.png",
+            "img_fourth": "../public/img/products/newbalance_baam/NB_baam_Blue.png"
+          },
+          "product_colors":{
+            "color_first": "#ffd491",
+            "color_second": "#f87a7b",
+            "color_third": "#ffbceb",
+            "color_fourth": "#8d90fa"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'New Balance Baam'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        },
+
+        {
+          "id": "8365d563-efab-4a90-b55a-f5a170112ce1",
+          "product_name": "Biti's Hunter X",
+          "product_brand": "bitis",
+          "product_sport": "walking",
+          "product_imgs":{
+            "img_first": "../public/img/products/bitis_hunterX/B_hunterX_Blue.png",
+            "img_second": "../public/img/products/bitis_hunterX/B_hunterX_Pupple.png",
+            "img_third": "../public/img/products/bitis_hunterX/B_hunterX_Orange.png",
+            "img_fourth": "../public/img/products/bitis_hunterX/B_hunterX_Yellow.png"
+          },
+          "product_colors":{
+            "color_first": "#4e77fe",
+            "color_second": "#c86bc6",
+            "color_third": "#fb6945",
+            "color_fourth": "#fae73d"
+          },
+          "product_price": {
+            "cost": 100,
+            "sale": 80
+          },
+          "product_description": "Take your training runs to the next level, with the 'Biti's Hunter X'. With unbelievable React cushioning and a new forefoot Air unit, they're like a caffeine boost for your legs. The lightweight upper provides incredible breathability. Pared-down, perfectly placed padding helps reduce hotspots. And the super-grippy outsole.",
+          "inCart": 0
+        }
+      ]
+}

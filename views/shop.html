@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PingDum E-Commerce</title>
+    <link rel="shortcut icon" type="image/png" href="../public/img/logo.png"/>
+    <link rel="stylesheet" href="../public/css/grid.css">
+    <link rel="stylesheet" href="../public/css/partial.css">
+    <link rel="stylesheet" href="../public/css/shop.css">
+    <link rel="stylesheet" href="../public/css/media.css">
+
+</head>
+
+<body class="overY-hidden">
+    <!-- Scroll to Top ----------------->
+    <div class="scrollTop"><i class="fas fa-arrow-circle-up"></i></div>
+    <!-- Loading ----------------->
+    <div class="pre-loading">
+        <h3 class="loader">
+            <span>L</span>
+            <span>O</span>
+            <span>A</span>
+            <span>D</span>
+            <span>I</span>
+            <span>N</span>
+            <span>G</span>
+        </h3>
+    </div>
+
+    <!-- Toast ----------------->
+    <div id="toast"></div>
+
+    <header>
+        <nav>
+            <!--social-links-and-phone-number----------------->
+            <div class="social-call">
+                <!--social-links--->
+                <div class="social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <!--phone-number------>
+                <div class="phone">
+                    <span>Call: +0868458695</span>
+                </div>
+            </div>
+            <!-- MENU BAR ----------------------------------------->
+            <div class="navigation">
+                <div class="container display-j-a">
+                    <!-- LOGO ------------>
+                    <a href="/views/shop.html" class="logo"><img src="../public/img/logo.png"></a>
+                    <!--menu-icon------------->
+                    <div class="toggle"></div>
+                    <!-- MENU ----------------->
+                    <ul class="menu">
+                        <li><a href="/views/shop.html">Home</a></li>
+                        <li class="shop"><a href="/views/shop.html">Shop</a></li>
+                        <li><a href="/views/shop.html">Men</a>
+                            <span class="sale-lable">Sale</span>
+                        </li>
+                        <li><a href="/views/shop.html">Women</a></li>
+                        <li><a href="/views/shop.html">Kids</a></li>
+                    </ul>
+                    <!--RIGHT MENU----------->
+                    <div class="right-menu">
+                        <a href="javascript:void(0);" class="search">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="user">
+                            <i class="far fa-user"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="shopping-cart">
+                            <i class="fas fa-shopping-cart">
+                                <span class="num-cart-product">0</span>
+                            </i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+
+        </nav>
+        <!-- mini cart -->
+        <div class="cart">
+            <div class="mini_cart">
+                <div class="cart_close">
+                    <div class="cart_text">
+                        <h3>Your Cart</h3>
+                    </div>
+                    <div class="mini_cart_close">
+                        <a href="javascript:void(0)"><i class="fas fa-window-close"></i></a>
+                    </div>
+                </div>
+                <div class="cart_inner">
+                    <!-- INSERT CART CONTENT -->
+                </div>
+                <div class="cart_total">
+                    <!-- INSERT CART CONTENT -->
+                </div>
+                <div class="mini_cart_footer">
+                    <div class="cart_button view_cart">
+                        <a href="/views/cart.html">View Cart</a>
+                    </div>
+                </div>
+                <!-- mini cart ends  -->
+            </div>
+        </div>
+        <!--search-bar----------------------------------->
+        <div class="search-bar">
+
+            <!--search-input------->
+            <div class="search-input">
+                <input type="text" placeholder="Search For Product" name="search" />
+                <!--cancel-btn--->
+                <a href="javascript:void(0);" class="search-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+
+            </div>
+        </div>
+        <!---login-and-sign-up--------------------------------->
+        <div class="form">
+            <!--login---------->
+            <div class="login-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Log In</strong>
+                <!--inputs-->
+                <form>
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Log In" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="#" class="forget">Forget Your Password?</a>
+                    <a href="javascript:void(0);" class="sign-up-btn">Create Account</a>
+                </div>
+            </div>
+            <!--Sign-up---------->
+            <div class="sign-up-form">
+                <!--cancel-btn---------------->
+                <a href="javascript:void(0);" class="form-cancel">
+                    <i class="fas fa-times"></i>
+                </a>
+                <strong>Sign Up</strong>
+                <!--inputs-->
+                <form>
+                    <input type="text" name="fullname" placeholder="Full Name" required />
+                    <input type="email" name="email" placeholder="Example@gmail.com" required />
+                    <input type="password" name="password" placeholder="Password" required />
+                    <input type="submit" value="Sign Up" />
+                </form>
+                <!--forget-and-sign-up-btn-->
+                <div class="form-btns">
+                    <a href="javascript:void(0);" class="already-account">
+                        Already Have Account?</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="shop-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 display-fw">
+                        <div class="shop-sidebar col-sm-12 col-lg-12">
+                            <div class="sidebar-banner">
+                                <div class="banner-img">
+                                    <a href="#">
+                                        <img src="../public/img/sidebar-banner.gif" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shop-sidebar col-sm-6 col-lg-12 mt-37">
+                            <h4>Brand</h4>
+                            <div class="category-brand">
+                                <ul>
+                                    <li class="filter" data-filter="all">
+                                        <a href="#"><i class="fas fa-qrcode"></i>All</a>
+                                        <span class="count">(14)
+                                            <ul class="effect active"></ul>
+                                        </span> 
+                                    </li>
+
+                                    <li class="filter" data-filter="nike"><a href="#"><i class="fas fa-link"></i>Nike</a>
+                                        <span class="count">(4)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+
+                                    <li class="filter" data-filter="adidas"><a href="#"><i class="fas fa-stream"></i>Adidas</a>
+                                        <span class="count">(3)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+
+                                    <li class="filter" data-filter="mizuno"><a href="#"><i class="fas fa-calendar-week"></i>Mizuno</a>
+                                        <span class="count">(1)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+
+                                    <li class="filter" data-filter="bitis"><a href="#"><i class="fas fa-calendar-week"></i>Biti's</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+
+                                    <li class="filter" data-filter="puma"><a href="#"><i class="fas fa-calendar-week"></i>Puma</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+
+                                    <li class="filter" data-filter="newbalance"><a href="#"><i class="fas fa-calendar-week"></i>New Balance</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="shop-sidebar col-sm-6 col-lg-12">
+                            <h4>Sport</h4>
+                            <div class="category-sport">
+                                <ul>
+                                    <li class="filter" data-filter="basketball">
+                                        <a href="#"><i class="fas fa-qrcode"></i>Basketball</a>
+                                        <span class="count">(1)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                    <li class="filter" data-filter="lifestyle">
+                                        <a href="#"><i class="fas fa-link"></i>Lifestyle</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                    <li class="filter" data-filter="football">
+                                        <a href="#"><i class="fas fa-futbol"></i>Football</a>
+                                        <span class="count">(1)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                    <li class="filter" data-filter="baseball">
+                                        <a href="#"><i class="fas fa-baseball-ball"></i>Baseball</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>   
+                                    <li class="filter" data-filter="running">
+                                        <a href="#"><i class="fas fa-running"></i>Running</a>
+                                        <span class="count">(2)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                    <li class="filter" data-filter="gym">
+                                        <a href="#"><i class="fas fa-dumbbell"></i>Gym</a>
+                                        <span class="count">(3)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                    <li class="filter" data-filter="walking">
+                                        <a href="#"><i class="fas fa-walking"></i>Walking</a>
+                                        <span class="count">(3)
+                                            <ul class="effect"></ul>
+                                        </span>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="shop-sidebar col-sm-12 col-lg-12">
+                            <h4>Filter by price</h4>
+                            <div class="range">
+                                <div class="sliderValue">
+                                    <span class="value-range">100</span>
+                                </div>
+                                <div class="field">
+                                    <div class="value left">
+                                        0</div>
+                                    <input class="input-organe" type="range" min="10" max="200" value="100" steps="1">
+                                    <div class="value right">
+                                        200</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="shop-sidebar col-sm-12 col-lg-12">
+                            <h4>Top Rated Products</h4>
+                            <div class="bestseller">
+                                <ul>
+                                    <li>
+                                        <div class="bestseller-img">
+                                            <a href="single-product.html"><img src="../public/img/blue.png" alt=""></a>
+                                        </div>
+                                        <div class="bestseller-content">
+                                            <h6>Condimentum posuere</h6>
+                                            <div class="bs-content-review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="bs-content-price">
+                                                <span class="old-price">$72.00</span>
+                                                <span class="new-price">$72.00</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="bestseller-img">
+                                            <a href="single-product.html"><img src="../public/img/green.png" alt=""></a>
+                                        </div>
+                                        <div class="bestseller-content">
+                                            <h6>Condimentum posuere</h6>
+                                            <div class="bs-content-review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="bs-content-price">
+                                                <span class="old-price">$72.00</span>
+                                                <span class="new-price">$72.00</span>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    <li>
+                                        <div class="bestseller-img">
+                                            <a href="single-product.html"><img src="../public/img/red.png" alt=""></a>
+                                        </div>
+                                        <div class="bestseller-content">
+                                            <h6>Condimentum posuere</h6>
+                                            <div class="bs-content-review">
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                                <i class="fa fa-star"></i>
+                                            </div>
+                                            <div class="bs-content-price">
+                                                <span class="old-price">$72.00</span>
+                                                <span class="new-price">$72.00</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="shop-sidebar col-sm-12 col-lg-12">
+                            <h4>Product Tags</h4>
+                            <div class="product-tag">
+                                <ul>
+                                    <li><a href="#">sport</a></li>
+                                    <li><a href="#">office</a></li>
+                                    <li><a href="#">run</a></li>
+                                    <li><a href="#">size</a></li>
+                                    <li><a href="#">color</a></li>
+                                    <li><a href="#">athletics</a></li>
+                                    <li><a href="#">walking</a></li>
+                                    <li><a href="#">gym</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-9">
+                        <div class="shop-layout">
+                            <!---------------- Breadcrumb ---------------->
+                            <div class="breadcrumb-area">
+                                <div class="breadcrumb-img">
+                                    <div class="img-slider">
+                                        <div class="slide show">
+                                            <img src="../public/img/1.jpg" alt="">
+                                            <div class="info">
+                                                <h2>Slide 01</h2>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <img src="../public/img/2.jpg" alt="">
+                                            <div class="info">
+                                                <h2>Slide 02</h2>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <img src="../public/img/3.jpg" alt="">
+                                            <div class="info">
+                                                <h2>Slide 03</h2>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <img src="../public/img/4.jpg" alt="">
+                                            <div class="info">
+                                                <h2>Slide 04</h2>
+                                            </div>
+                                        </div>
+                                        <div class="slide">
+                                            <img src="../public/img/5.png" alt="">
+                                            <div class="info">
+                                                <h2>Slide 05</h2>
+                                            </div>
+                                        </div>
+                                        <div class="navigation">
+                                            <div class="btn show"></div>
+                                            <div class="btn"></div>
+                                            <div class="btn"></div>
+                                            <div class="btn"></div>
+                                            <div class="btn"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="breadcrumb-content">
+                                    <ul>
+                                        <li><a href="index.html">Home</a></li>
+                                        <li class="active">Shop</li>
+                                    </ul>
+                                </div>
+                            </div>
+
+                            <div class="topbar-area">
+                                <div class="grid-list-option">
+                                    <ul>
+                                        <li>
+                                            <a class="active" href="javascript:void(0);" data-toggle="grid">
+                                                <i class="fa fa-th-large"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="javascript:void(0);" data-toggle="list">
+                                                <i class="fa fa-th-list"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="topbar-search">
+                                    <span><i class="fab fa-searchengin"></i></span>
+                                    <input name="searchBar" id="searchBar" class="form-field" type="text"
+                                        placeholder="quick search...">
+                                </div>
+                            </div>
+
+                            <div class="shop-product-area">
+                                <div class="product-grid-view active">
+                                    <div class="row">
+                                        <!-- 
+                                            ***** RENDER PRODUCT GRID ***** 
+                                        -->
+                                    </div>
+
+                                    <div class="grid-pagination">
+                                        <ul>
+                                            <!-- 
+                                            ***** RENDER GRID PAGINATION ***** 
+                                            -->
+                                        </ul>
+                                    </div>
+                                </div>
+
+                                <div class="product-list-view">
+                                    <div class="render_list">
+                                        <!-- 
+                                            ***** RENDER LIST GRID ***** 
+                                        -->
+                                    </div>
+
+                                    <div class="list-pagination">
+                                        <ul>
+                                            <!-- 
+                                            ***** RENDER LIST PAGINATION ***** 
+                                            -->
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-top-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>My Account</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="#">Team Member</a></li>
+                                    <li><a href="#">Career</a></li>
+                                    <li><a href="#">Specials</a></li>
+                                    <li><a href="shop.html">Best sellers</a></li>
+                                    <li><a href="#">Our stores</a></li>
+                                    <li><a href="contact.html">Contact us</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Sport</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Basketball</a></li>
+                                    <li><a href="#">Lifestyle</a></li>
+                                    <li><a href="#">Football</a></li>
+                                    <li><a href="#">Baseball</a></li>
+                                    <li><a href="#">Running</a></li>
+                                    <li><a href="#">Gym</a></li>
+                                    <li><a href="#">Walking</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Brand</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="#">Vans</a></li>
+                                    <li><a href="#">Nike</a></li>
+                                    <li><a href="#">Adidas</a></li>
+                                    <li><a href="#">Mizuno</a></li>
+                                    <li><a href="#">Biti's</a></li>
+                                    <li><a href="#">Puma</a></li>
+                                    <li><a href="#">New Balance</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+
+                        <div class="col-xs-6 col-sm-6 col-lg-3 col-md-4">
+                            <!--Single Footer Start-->
+                            <div class="single-footer">
+                                <div class="footer-title">
+                                    <h3>Information</h3>
+                                </div>
+                                <ul class="link-widget">
+                                    <li><a href="about.html">About Us</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                    <li><a href="#">My orders</a></li>
+                                    <li><a href="#">Terms &amp; Conditions</a></li>
+                                    <li><a href="#">Returns &amp; Exchanges</a></li>
+                                    <li><a href="#">Shipping &amp; Delivery</a></li>
+                                    <li><a href="#">Privacy Policy</a></li>
+                                </ul>
+                            </div>
+                            <!--Single Footer End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-middle-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Widget Start-->
+                            <div class="single-footer">
+                                <div class="footer-logo">
+                                    <a href="index.html"><img
+                                            src="../public/img/logo.png"
+                                            alt=""></a>
+                                </div>
+                            </div>
+                            <!--Single Footer Widget End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Widget Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-home"></i>
+                                    </div>
+                                    <p>Address : No.6C, 8 Street, Thu Duc District, HCM.City</p>
+                                </div>
+                            </div>
+                            <!--Single Footer Widget End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Widget Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-envelope-open-o"></i>
+                                    </div>
+                                    <p>Gmail: <br>phuocloc17598@gmail.com</p>
+                                </div>
+                            </div>
+                            <!--Single Footer Widget End-->
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-lg-3 col-md-6">
+                            <!--Single Footer Widget Start-->
+                            <div class="single-footer">
+                                <div class="footer-info">
+                                    <div class="icon">
+                                        <i class="fa fa-mobile"></i>
+                                    </div>
+                                    <p>Phone: <br>(+68) 123 456 7890</p>
+                                </div>
+                            </div>
+                            <!--Single Footer Widget End-->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <div class="popup-view">
+        <!-- RENDER QUICK VIEW PRODUCT -->
+    </div>
+
+    <!--using FontAwesome--------------->
+    <script src="../public/js/jquery-3.6.0.js"></script>
+    <script src="../public/js/font-awesome.js"></script>
+    <script src="../public/js/partial.js"></script>
+    <script src="../public/js/shop.js"></script>
+</body>
+
+</html>
